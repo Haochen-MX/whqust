@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="uz">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WH Question Words — English Lesson</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Outfit:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="grain" aria-hidden="true"></div>
+    <div class="glow" aria-hidden="true"></div>
+
+    <div class="deck" id="deck">
+      <header class="chrome">
+        <div class="brand">
+          <span class="mark" aria-hidden="true"></span>
+          <span>WH Questions</span>
+        </div>
+        <div class="progress" aria-hidden="true">
+          <div class="progress-bar" id="progress"></div>
+        </div>
+        <p class="counter" id="counter">1 / 18</p>
+      </header>
+
+      <div class="stage" id="stage" tabindex="0">
+        <!-- 1 -->
+        <section class="slide active" data-title="Cover">
+          <div class="hero">
+            <p class="kicker">English grammar · classroom lesson</p>
+            <h1>WH Question Words</h1>
+            <p class="lede">
+              Savol so‘zlari bilan odam, narsa, joy, vaqt, sabab va usul haqida
+              aniq ma’lumot so‘raymiz.
+            </p>
+            <ul class="chip-row" aria-label="WH words">
+              <li>Who</li>
+              <li>What</li>
+              <li>Where</li>
+              <li>When</li>
+              <li>Why</li>
+              <li>Which</li>
+              <li>Whose</li>
+              <li>How</li>
+            </ul>
+            <p class="hint-line">Boshlash uchun → yoki Next ni bosing</p>
+          </div>
+        </section>
+
+        <!-- 2 -->
+        <section class="slide" data-title="Goal">
+          <p class="kicker">Dars maqsadi</p>
+          <h2>Bugun nima o‘rganamiz?</h2>
+          <div class="goal-grid">
+            <article>
+              <span class="num">01</span>
+              <h3>Farqni bilish</h3>
+              <p>Yes/No savollar va WH savollar nima uchun boshqacha.</p>
+            </article>
+            <article>
+              <span class="num">02</span>
+              <h3>8 asosiy so‘z</h3>
+              <p>Who, What, Where, When, Why, Which, Whose, How.</p>
+            </article>
+            <article>
+              <span class="num">03</span>
+              <h3>To‘g‘ri tartib</h3>
+              <p>WH + yordamchi fe’l + ega + asosiy fe’l.</p>
+            </article>
+            <article>
+              <span class="num">04</span>
+              <h3>Mashq</h3>
+              <p>Tanlash, to‘ldirish va so‘zlarni moslashtirish.</p>
+            </article>
+          </div>
+        </section>
+
+        <!-- 3 -->
+        <section class="slide" data-title="Two types">
+          <p class="kicker">Ikki tur savol</p>
+          <h2>Yes / No  ·  WH questions</h2>
+          <div class="split">
+            <article class="card">
+              <p class="badge-soft">Yes / No</p>
+              <h3>Javob qisqa</h3>
+              <p class="example"><em>Do</em> you like tea?</p>
+              <p class="answer">Yes, I do. / No, I don’t.</p>
+              <p class="note">Ma’lumot so‘ramaydi — tasdiq yoki inkor.</p>
+            </article>
+            <article class="card gold">
+              <p class="badge-soft">WH question</p>
+              <h3>Javob ma’lumot</h3>
+              <p class="example"><em>What</em> do you like?</p>
+              <p class="answer">I like green tea.</p>
+              <p class="note">Kim? Nima? Qayerda? — aniq javob kerak.</p>
+            </article>
+          </div>
+        </section>
+
+        <!-- 4 -->
+        <section class="slide" data-title="Map">
+          <p class="kicker">Xarita</p>
+          <h2>8 so‘z — 8 savol</h2>
+          <div class="word-map">
+            <button class="map-card" type="button" data-jump="5">
+              <strong>Who</strong><span>Kim?</span><small>person</small>
+            </button>
+            <button class="map-card" type="button" data-jump="6">
+              <strong>What</strong><span>Nima?</span><small>thing / action</small>
+            </button>
+            <button class="map-card" type="button" data-jump="7">
+              <strong>Where</strong><span>Qayerda?</span><small>place</small>
+            </button>
+            <button class="map-card" type="button" data-jump="8">
+              <strong>When</strong><span>Qachon?</span><small>time</small>
+            </button>
+            <button class="map-card" type="button" data-jump="9">
+              <strong>Why</strong><span>Nega?</span><small>reason</small>
+            </button>
+            <button class="map-card" type="button" data-jump="10">
+              <strong>Which</strong><span>Qaysi?</span><small>choice</small>
+            </button>
+            <button class="map-card" type="button" data-jump="11">
+              <strong>Whose</strong><span>Kimniki?</span><small>possession</small>
+            </button>
+            <button class="map-card" type="button" data-jump="12">
+              <strong>How</strong><span>Qanday?</span><small>manner</small>
+            </button>
+          </div>
+        </section>
+
+        <!-- 5 Who -->
+        <section class="slide" data-title="Who">
+          <div class="word-hero">
+            <p class="big-word">Who</p>
+            <div>
+              <p class="kicker">Person · Kim?</p>
+              <h2>Odam haqida so‘raymiz</h2>
+              <p class="lede tight">Javob — ism, kasb yoki odamni bildiruvchi so‘z.</p>
+            </div>
+          </div>
+          <div class="qa-grid">
+            <div class="qa">
+              <p class="q"><b>Who</b> is your teacher?</p>
+              <p class="a">Mrs Karimova. / My English teacher.</p>
+            </div>
+            <div class="qa">
+              <p class="q"><b>Who</b> do you live with?</p>
+              <p class="a">I live with my parents.</p>
+            </div>
+            <div class="qa">
+              <p class="q"><b>Who</b> called you yesterday?</p>
+              <p class="a">My friend called me.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- 6 What -->
+        <section class="slide" data-title="What">
+          <div class="word-hero">
+            <p class="big-word">What</p>
+            <div>
+              <p class="kicker">Thing / action · Nima?</p>
+              <h2>Narsa yoki ish haqida</h2>
+              <p class="lede tight">Nima? Qanday narsa? Nima qilyapsan?</p>
+            </div>
+          </div>
+          <div class="qa-grid">
+            <div class="qa">
+              <p class="q"><b>What</b> is this?</p>
+              <p class="a">It is a dictionary.</p>
+            </div>
+            <div class="qa">
+              <p class="q"><b>What</b> do you do at weekends?</p>
+              <p class="a">I play football.</p>
+            </div>
+            <div class="qa">
+              <p class="q"><b>What</b> colour is your bag?</p>
+              <p class="a">It is dark green.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- 7 Where -->
+        <section class="slide" data-title="Where">
+          <div class="word-hero">
+            <p class="big-word">Where</p>
+            <div>
+              <p class="kicker">Place · Qayerda?</p>
+              <h2>Joy va yo‘nalish</h2>
+              <p class="lede tight">Qayerda? Qayerdan? Qayerga?</p>
+            </div>
+          </div>
+          <div class="qa-grid">
+            <div class="qa">
+              <p class="q"><b>Where</b> do you live?</p>
+              <p class="a">I live in Tashkent.</p>
+            </div>
+            <div class="qa">
+              <p class="q"><b>Where</b> is the library?</p>
+              <p class="a">It is next to the canteen.</p>
+            </div>
+            <div class="qa">
+              <p class="q"><b>Where</b> are you going?</p>
+              <p class="a">I’m going to school.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- 8 When -->
+        <section class="slide" data-title="When">
+          <div class="word-hero">
+            <p class="big-word">When</p>
+            <div>
+              <p class="kicker">Time · Qachon?</p>
+              <h2>Vaqt haqida</h2>
+              <p class="lede tight">Soat, kun, oy, fasl, yil.</p>
+            </div>
+          </div>
+          <div class="qa-grid">
+            <div class="qa">
+              <p class="q"><b>When</b> is your birthday?</p>
+              <p class="a">It is on 12 May.</p>
+            </div>
+            <div class="qa">
+              <p class="q"><b>When</b> do lessons start?</p>
+              <p class="a">They start at 8 o’clock.</p>
+            </div>
+            <div class="qa">
+              <p class="q"><b>When</b> did you arrive?</p>
+              <p class="a">I arrived yesterday.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- 9 Why -->
+        <section class="slide" data-title="Why">
+          <div class="word-hero">
+            <p class="big-word">Why</p>
+            <div>
+              <p class="kicker">Reason · Nega? Nima uchun?</p>
+              <h2>Sabab so‘raymiz</h2>
+              <p class="lede tight">Javob odatda <b>because</b> bilan boshlanadi.</p>
+            </div>
+          </div>
+          <div class="qa-grid">
+            <div class="qa">
+              <p class="q"><b>Why</b> are you late?</p>
+              <p class="a">Because the bus was slow.</p>
+            </div>
+            <div class="qa">
+              <p class="q"><b>Why</b> do you study English?</p>
+              <p class="a">Because I want to travel.</p>
+            </div>
+            <div class="qa">
+              <p class="q"><b>Why</b> didn’t she come?</p>
+              <p class="a">Because she was ill.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- 10 Which -->
+        <section class="slide" data-title="Which">
+          <div class="word-hero">
+            <p class="big-word">Which</p>
+            <div>
+              <p class="kicker">Choice · Qaysi?</p>
+              <h2>Tanlov ichidan birini</h2>
+              <p class="lede tight">Oldinda 2 yoki undan ko‘p variant bo‘lsa — <b>Which</b>. Umumiy narsa bo‘lsa — <b>What</b>.</p>
+            </div>
+          </div>
+          <div class="split mini">
+            <article class="card">
+              <p class="badge-soft">Which</p>
+              <p class="example"><em>Which</em> bag is yours — the blue one or the black one?</p>
+              <p class="note">Aniq tanlov bor.</p>
+            </article>
+            <article class="card">
+              <p class="badge-soft">What</p>
+              <p class="example"><em>What</em> colour do you like?</p>
+              <p class="note">Cheksiz variant. Tanlov berilmagan.</p>
+            </article>
+          </div>
+        </section>
+
+        <!-- 11 Whose -->
+        <section class="slide" data-title="Whose">
+          <div class="word-hero">
+            <p class="big-word">Whose</p>
+            <div>
+              <p class="kicker">Possession · Kimniki?</p>
+              <h2>Egalik so‘raymiz</h2>
+              <p class="lede tight">Javob: my, your, Ali’s, hers…</p>
+            </div>
+          </div>
+          <div class="qa-grid">
+            <div class="qa">
+              <p class="q"><b>Whose</b> book is this?</p>
+              <p class="a">It’s Laylo’s book.</p>
+            </div>
+            <div class="qa">
+              <p class="q"><b>Whose</b> phone is ringing?</p>
+              <p class="a">It’s mine.</p>
+            </div>
+            <div class="qa">
+              <p class="q"><b>Whose</b> parents are teachers?</p>
+              <p class="a">Jasur’s parents are teachers.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- 12 How -->
+        <section class="slide" data-title="How">
+          <p class="kicker">Manner + oilasi · Qanday?</p>
+          <h2>How va uning juftlari</h2>
+          <div class="how-grid">
+            <article><strong>How</strong><span>Qanday?</span><em>How do you go to school? — By bus.</em></article>
+            <article><strong>How old</strong><span>Yoshi?</span><em>How old are you? — I’m 15.</em></article>
+            <article><strong>How many</strong><span>Nechta? (sanoqli)</span><em>How many books? — Five.</em></article>
+            <article><strong>How much</strong><span>Qancha? (sanoqsiz / narx)</span><em>How much water? / How much is it?</em></article>
+            <article><strong>How often</strong><span>Qanchalik tez-tez?</span><em>How often do you train? — Twice a week.</em></article>
+            <article><strong>How long</strong><span>Qancha vaqt / qancha uzun?</span><em>How long is the film? — Two hours.</em></article>
+          </div>
+        </section>
+
+        <!-- 13 Structure -->
+        <section class="slide" data-title="Order">
+          <p class="kicker">Gap tartibi</p>
+          <h2>WH savol qanday tuziladi?</h2>
+          <div class="formula" aria-label="Question formula">
+            <span>WH</span>
+            <span class="plus">+</span>
+            <span>auxiliary</span>
+            <span class="plus">+</span>
+            <span>subject</span>
+            <span class="plus">+</span>
+            <span>verb</span>
+            <span class="plus">+</span>
+            <span>… ?</span>
+          </div>
+          <div class="build">
+            <p>
+              <span class="t wh">Where</span>
+              <span class="t aux">do</span>
+              <span class="t sub">you</span>
+              <span class="t verb">live</span>
+              <span class="t rest">?</span>
+            </p>
+            <p>
+              <span class="t wh">What</span>
+              <span class="t aux">did</span>
+              <span class="t sub">she</span>
+              <span class="t verb">buy</span>
+              <span class="t rest">yesterday?</span>
+            </p>
+            <p>
+              <span class="t wh">Why</span>
+              <span class="t aux">is</span>
+              <span class="t sub">he</span>
+              <span class="t verb">sad</span>
+              <span class="t rest">?</span>
+            </p>
+          </div>
+          <p class="legend">
+            <span class="dot wh"></span> WH so‘z
+            <span class="dot aux"></span> yordamchi (do / does / did / is / are / can)
+            <span class="dot sub"></span> ega
+            <span class="dot verb"></span> fe’l
+          </p>
+        </section>
+
+        <!-- 14 Subject questions -->
+        <section class="slide" data-title="Subject">
+          <p class="kicker">Muhim qoida</p>
+          <h2>Who / What ega bo‘lsa</h2>
+          <p class="lede tight">Savolning o‘zi egaga qaratilgan bo‘lsa, <b>do / does / did</b> qo‘yilmaydi.</p>
+          <div class="split">
+            <article class="card">
+              <p class="badge-soft">Object question</p>
+              <p class="example"><em>Who</em> did you meet?</p>
+              <p class="note">Ega = you. Yordamchi kerak: <b>did</b>.</p>
+              <p class="answer">I met the director.</p>
+            </article>
+            <article class="card gold">
+              <p class="badge-soft">Subject question</p>
+              <p class="example"><em>Who</em> met the director?</p>
+              <p class="note">Ega = who. <b>did</b> yo‘q. Fe’l odatdagi shaklda.</p>
+              <p class="answer">Aziza met the director.</p>
+            </article>
+          </div>
+        </section>
+
+        <!-- 15 Quiz -->
+        <section class="slide" data-title="Quiz">
+          <p class="kicker">Practice 1</p>
+          <h2>To‘g‘ri WH so‘zni tanlang</h2>
+          <div class="quiz" id="quiz">
+            <p class="quiz-meta" id="quiz-meta">Savol 1 / 8</p>
+            <p class="quiz-q" id="quiz-q"></p>
+            <div class="quiz-options" id="quiz-options"></div>
+            <p class="quiz-feedback" id="quiz-feedback" role="status"></p>
+            <button type="button" class="primary" id="quiz-next" hidden>Keyingi savol</button>
+            <div class="quiz-done hidden" id="quiz-done">
+              <p class="score" id="quiz-score"></p>
+              <button type="button" class="ghost" id="quiz-retry">Qayta ishlash</button>
+            </div>
+          </div>
+        </section>
+
+        <!-- 16 Match -->
+        <section class="slide" data-title="Match">
+          <p class="kicker">Practice 2</p>
+          <h2>So‘zni ma’nosiga ulash</h2>
+          <p class="lede tight">So‘zni tanlang, keyin uning ta’rifini bosing. Yoki sudrab tashlang.</p>
+          <div class="match-hud">
+            <span>Mos: <strong id="matched">0 / 8</strong></span>
+            <span>Aniqlik: <strong id="accuracy">100%</strong></span>
+          </div>
+          <div class="board">
+            <section class="column">
+              <h3>Words</h3>
+              <div id="words" class="word-list"></div>
+            </section>
+            <section class="column">
+              <h3>Meanings</h3>
+              <div id="defs" class="def-list"></div>
+            </section>
+          </div>
+          <p id="match-feedback" class="feedback" role="status"></p>
+        </section>
+
+        <!-- 17 Review -->
+        <section class="slide" data-title="Review">
+          <p class="kicker">Qisqa xotira</p>
+          <h2>Bir qarashda</h2>
+          <table class="cheat">
+            <thead>
+              <tr>
+                <th>Word</th>
+                <th>O‘zbekcha</th>
+                <th>So‘raydi</th>
+                <th>Namuna</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>Who</td><td>Kim?</td><td>person</td><td>Who is she?</td></tr>
+              <tr><td>What</td><td>Nima?</td><td>thing / action</td><td>What do you want?</td></tr>
+              <tr><td>Where</td><td>Qayerda?</td><td>place</td><td>Where is the park?</td></tr>
+              <tr><td>When</td><td>Qachon?</td><td>time</td><td>When is the test?</td></tr>
+              <tr><td>Why</td><td>Nega?</td><td>reason</td><td>Why are you tired?</td></tr>
+              <tr><td>Which</td><td>Qaysi?</td><td>choice</td><td>Which pen is yours?</td></tr>
+              <tr><td>Whose</td><td>Kimniki?</td><td>owner</td><td>Whose bag is this?</td></tr>
+              <tr><td>How</td><td>Qanday?</td><td>manner</td><td>How are you?</td></tr>
+            </tbody>
+          </table>
+        </section>
+
+        <!-- 18 End -->
+        <section class="slide" data-title="End">
+          <div class="hero end">
+            <p class="kicker">Yakun</p>
+            <h1>Ask. Don’t guess.</h1>
+            <p class="lede">
+              WH so‘z + yordamchi + ega + fe’l. Javob esa har doim ma’lumot.
+            </p>
+            <p class="formula tiny">
+              <span>Who</span><span>What</span><span>Where</span><span>When</span>
+              <span>Why</span><span>Which</span><span>Whose</span><span>How</span>
+            </p>
+            <p class="hint-line">Savollar bormi? Qayta ko‘rish uchun ←</p>
+          </div>
+        </section>
+      </div>
+
+      <footer class="nav">
+        <button type="button" class="ghost" id="prev" disabled>← Back</button>
+        <div class="dots" id="dots" aria-label="Slides"></div>
+        <button type="button" class="primary" id="next">Next →</button>
+      </footer>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
